@@ -8,3 +8,9 @@ How to run my program
 5. PHP artisan migrate
 6. PHP artisan DB:seed
 7. PHP artisan serve
+
+In case you wanted to test my program with thousands of fake data
+1. Go to DatabaseSeeder.php
+2. edit the User::factory(100)->create(); , Category::factory(100)->create(); , Post::factory(200)->create();
+3. edit the number inside the ()
+   
